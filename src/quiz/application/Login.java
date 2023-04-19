@@ -15,12 +15,12 @@ public class Login extends JFrame implements ActionListener {
         getContentPane().setBackground(Color.WHITE);
         setLayout(null);
 
-        ImageIcon i1 = new ImageIcon(ClassLoader.getSystemResource("icons/logo11.png"));
+        ImageIcon i1 = new ImageIcon(ClassLoader.getSystemResource("icons/BrainBusters.jpg"));
         JLabel image = new JLabel(i1);
-        image.setBounds(0, 0, 600, 500);
+        image.setBounds(0, 0, 500, 500);
         add(image);
 
-        JLabel heading = new JLabel("Simple Minds");
+        JLabel heading = new JLabel("Brain Busters");
         heading.setBounds(750, 60, 300, 45);
         heading.setFont(new Font("Viner Hand ITC", Font.BOLD, 40));
         heading.setForeground(new Color(30, 144, 254));
@@ -37,7 +37,7 @@ public class Login extends JFrame implements ActionListener {
         tfname.setFont(new Font("Times New Roman", Font.BOLD, 20));
         add(tfname);
 
-        rules = new JButton("Rules");
+        rules = new JButton("Start");
         rules.setBounds(735, 270, 120, 25);
         rules.setBackground(new Color(30, 144, 254));
         rules.setForeground(Color.WHITE);
