@@ -44,7 +44,7 @@ public class Login extends JFrame implements ActionListener {
         rules.addActionListener(this);
         add(rules);
 
-        back = new JButton("Back");
+        back = new JButton("Exit");
         back.setBounds(915, 270, 120, 25);
         back.setBackground(new Color(30, 144, 254));
         back.setForeground(Color.WHITE);
